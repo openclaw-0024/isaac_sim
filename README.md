@@ -37,17 +37,18 @@
 | 推荐 | RTX 4090 | 24GB | 4096 并行环境 |
 | 专业 | A100 | 80GB | 8192+ 并行环境 |
 
-> 当前设备 GTX 1650 (4GB) 不满足要求，需升级或使用云 GPU。
-> 详见 [硬件配置与云端方案](docs/06_硬件配置与云端方案.md)。
+> 目标系统：Ubuntu 24.04 LTS。GPU VRAM 需 >= 16GB，详见 [硬件配置与云端方案](docs/06_硬件配置与云端方案.md)。
 
 ---
 
 ## 核心技术栈
 
+- **目标系统**: Ubuntu 24.04 LTS
 - **仿真平台**: NVIDIA Isaac Sim 5.1.0 + Isaac Lab
 - **RL 算法**: PPO (通过 RSL-RL 库)
 - **任务框架**: Velocity Tracking Locomotion
 - **机器人描述**: URDF → USD
+- **ROS 版本**: ROS 2 Jazzy（Ubuntu 24.04 对应版本）
 - **部署推理**: ONNX Runtime / TensorRT
 - **边缘硬件**: NVIDIA Jetson Orin
 
