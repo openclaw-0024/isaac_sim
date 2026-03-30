@@ -59,7 +59,7 @@
 ```bash
 # 1. 训练 CartPole（验证环境）
 ./isaaclab.sh -p scripts/reinforcement_learning/rsl_rl/train.py \
-  --task Isaac-CartPole-v0 --num_envs 1024 --headless
+  --task Isaac-Cartpole-v0 --num_envs 1024 --headless
 
 # 2. 训练宇树 H1 行走
 ./isaaclab.sh -p scripts/reinforcement_learning/rsl_rl/train.py \
